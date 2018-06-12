@@ -7,7 +7,10 @@
 //
 
 #import "AppDelegate.h"
-
+#import "JDVersionTool.h"
+#import "Macros.h"
+#import "JDTabBarViewController.h"
+#import "JDNewFeatureViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +19,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
+    //判断根控制器
+    [self setupRootVC];
+
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 
@@ -46,6 +56,31 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+- (void)applicationDidReceiveMemoryWarning:(UIApplication *)application{
+    
+}
+
+#pragma mark -------CustomMethod
+
+- (void)setupRootVC{
+        // 判断版本号与 存储在沙盒中的版本号是否一致
+    if ([BUNDLE_VERSION isEqualToString:[JDVersionTool jd_GetLastAppVersion]]) {
+        JDTabBarViewController *tabBarVc = [[JDTabBarViewController alloc]init];
+        self.window.rootViewController = tabBarVc;
+    }else{
+        [JDVersionTool jd_SaveAppVersion:BUNDLE_VERSION];
+        //显示新特性
+        JDNewFeatureViewController *new = [[JDNewFeatureViewController alloc ]init];
+        [new setupFeatureAttribute:@[@"guide1",@"guide2",@"guide3",@"guide4"] showSkip:YES selectColor:[UIColor redColor] showPageCount:YES];
+        self.window.rootViewController = new;
+
+    }
+    
+    
+}
+
+
 
 
 @end

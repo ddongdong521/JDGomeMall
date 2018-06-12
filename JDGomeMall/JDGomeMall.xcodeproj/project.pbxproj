@@ -7,25 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED6D74934CD3AC70978E30DD /* libPods-JDGomeMall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC87DA33372B0E46E3D3791 /* libPods-JDGomeMall.a */; };
 		F52EBFC620C5424900D49C88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F52EBFC520C5424900D49C88 /* AppDelegate.m */; };
-		F52EBFC920C5424A00D49C88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F52EBFC820C5424A00D49C88 /* ViewController.m */; };
-		F52EBFCC20C5424A00D49C88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F52EBFCA20C5424A00D49C88 /* Main.storyboard */; };
 		F52EBFCE20C5424B00D49C88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F52EBFCD20C5424B00D49C88 /* Assets.xcassets */; };
 		F52EBFD120C5424B00D49C88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F52EBFCF20C5424B00D49C88 /* LaunchScreen.storyboard */; };
 		F52EBFD420C5424B00D49C88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F52EBFD320C5424B00D49C88 /* main.m */; };
+		F52EC02F20C68F1E00D49C88 /* JDVersionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F52EC02E20C68F1E00D49C88 /* JDVersionTool.m */; };
+		F52EC03520C690C500D49C88 /* JDConst.m in Sources */ = {isa = PBXBuildFile; fileRef = F52EC03420C690C500D49C88 /* JDConst.m */; };
+		F52EC03820C6938E00D49C88 /* JDTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F52EC03720C6938E00D49C88 /* JDTabBarViewController.m */; };
+		F52EC03B20C6940300D49C88 /* JDNewFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F52EC03A20C6940300D49C88 /* JDNewFeatureViewController.m */; };
+		F52EC06320CA340C00D49C88 /* JDNewFeatureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F52EC06220CA340C00D49C88 /* JDNewFeatureCell.m */; };
+		F535AB2920CF6BC500AC9564 /* UIView+JDFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = F535AB2820CF6BC500AC9564 /* UIView+JDFrame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8BC87DA33372B0E46E3D3791 /* libPods-JDGomeMall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JDGomeMall.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7EF1AB85FDC285B1D4A4793 /* Pods-JDGomeMall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDGomeMall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JDGomeMall/Pods-JDGomeMall.debug.xcconfig"; sourceTree = "<group>"; };
+		F398184460F1065605E42482 /* Pods-JDGomeMall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDGomeMall.release.xcconfig"; path = "Pods/Target Support Files/Pods-JDGomeMall/Pods-JDGomeMall.release.xcconfig"; sourceTree = "<group>"; };
 		F52EBFC120C5424900D49C88 /* JDGomeMall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDGomeMall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F52EBFC420C5424900D49C88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F52EBFC520C5424900D49C88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F52EBFC720C5424900D49C88 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F52EBFC820C5424A00D49C88 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F52EBFCB20C5424A00D49C88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F52EBFCD20C5424B00D49C88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F52EBFD020C5424B00D49C88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F52EBFD220C5424B00D49C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F52EBFD320C5424B00D49C88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F52EBFDD20C62D9800D49C88 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		F52EC02D20C68F1E00D49C88 /* JDVersionTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDVersionTool.h; sourceTree = "<group>"; };
+		F52EC02E20C68F1E00D49C88 /* JDVersionTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDVersionTool.m; sourceTree = "<group>"; };
+		F52EC03320C690C500D49C88 /* JDConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDConst.h; sourceTree = "<group>"; };
+		F52EC03420C690C500D49C88 /* JDConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDConst.m; sourceTree = "<group>"; };
+		F52EC03620C6938E00D49C88 /* JDTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDTabBarViewController.h; sourceTree = "<group>"; };
+		F52EC03720C6938E00D49C88 /* JDTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDTabBarViewController.m; sourceTree = "<group>"; };
+		F52EC03920C6940300D49C88 /* JDNewFeatureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDNewFeatureViewController.h; sourceTree = "<group>"; };
+		F52EC03A20C6940300D49C88 /* JDNewFeatureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDNewFeatureViewController.m; sourceTree = "<group>"; };
+		F52EC06120CA340C00D49C88 /* JDNewFeatureCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDNewFeatureCell.h; sourceTree = "<group>"; };
+		F52EC06220CA340C00D49C88 /* JDNewFeatureCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDNewFeatureCell.m; sourceTree = "<group>"; };
+		F52EC06420CA34B300D49C88 /* JDGomeMall.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDGomeMall.pch; sourceTree = "<group>"; };
+		F535AB2720CF6BC500AC9564 /* UIView+JDFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+JDFrame.h"; sourceTree = "<group>"; };
+		F535AB2820CF6BC500AC9564 /* UIView+JDFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+JDFrame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +52,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED6D74934CD3AC70978E30DD /* libPods-JDGomeMall.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5598A6CB8987BC634C09D2ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7EF1AB85FDC285B1D4A4793 /* Pods-JDGomeMall.debug.xcconfig */,
+				F398184460F1065605E42482 /* Pods-JDGomeMall.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C161D183D3EBFEA705AB4995 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BC87DA33372B0E46E3D3791 /* libPods-JDGomeMall.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F52EBFB820C5424900D49C88 = {
 			isa = PBXGroup;
 			children = (
 				F52EBFC320C5424900D49C88 /* JDGomeMall */,
 				F52EBFC220C5424900D49C88 /* Products */,
+				5598A6CB8987BC634C09D2ED /* Pods */,
+				C161D183D3EBFEA705AB4995 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,15 +99,58 @@
 			children = (
 				F52EBFC420C5424900D49C88 /* AppDelegate.h */,
 				F52EBFC520C5424900D49C88 /* AppDelegate.m */,
-				F52EBFC720C5424900D49C88 /* ViewController.h */,
-				F52EBFC820C5424A00D49C88 /* ViewController.m */,
-				F52EBFCA20C5424A00D49C88 /* Main.storyboard */,
+				F535AB2420CF632300AC9564 /* NewFeature */,
+				F535AB2320CF631400AC9564 /* VersionTool */,
+				F52EC03620C6938E00D49C88 /* JDTabBarViewController.h */,
+				F52EC03720C6938E00D49C88 /* JDTabBarViewController.m */,
+				F52EC03320C690C500D49C88 /* JDConst.h */,
+				F52EC03420C690C500D49C88 /* JDConst.m */,
+				F535AB2720CF6BC500AC9564 /* UIView+JDFrame.h */,
+				F535AB2820CF6BC500AC9564 /* UIView+JDFrame.m */,
+				F52EBFDD20C62D9800D49C88 /* Macros.h */,
+				F52EC06420CA34B300D49C88 /* JDGomeMall.pch */,
 				F52EBFCD20C5424B00D49C88 /* Assets.xcassets */,
 				F52EBFCF20C5424B00D49C88 /* LaunchScreen.storyboard */,
 				F52EBFD220C5424B00D49C88 /* Info.plist */,
 				F52EBFD320C5424B00D49C88 /* main.m */,
 			);
 			path = JDGomeMall;
+			sourceTree = "<group>";
+		};
+		F535AB2320CF631400AC9564 /* VersionTool */ = {
+			isa = PBXGroup;
+			children = (
+				F52EC02D20C68F1E00D49C88 /* JDVersionTool.h */,
+				F52EC02E20C68F1E00D49C88 /* JDVersionTool.m */,
+			);
+			path = VersionTool;
+			sourceTree = "<group>";
+		};
+		F535AB2420CF632300AC9564 /* NewFeature */ = {
+			isa = PBXGroup;
+			children = (
+				F535AB2620CF636500AC9564 /* view */,
+				F535AB2520CF634400AC9564 /* vc */,
+			);
+			path = NewFeature;
+			sourceTree = "<group>";
+		};
+		F535AB2520CF634400AC9564 /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				F52EC03920C6940300D49C88 /* JDNewFeatureViewController.h */,
+				F52EC03A20C6940300D49C88 /* JDNewFeatureViewController.m */,
+			);
+			path = vc;
+			sourceTree = "<group>";
+		};
+		F535AB2620CF636500AC9564 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F52EC06120CA340C00D49C88 /* JDNewFeatureCell.h */,
+				F52EC06220CA340C00D49C88 /* JDNewFeatureCell.m */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F52EBFD720C5424B00D49C88 /* Build configuration list for PBXNativeTarget "JDGomeMall" */;
 			buildPhases = (
+				E93E9340FB6B50A2D2B30F01 /* [CP] Check Pods Manifest.lock */,
 				F52EBFBD20C5424900D49C88 /* Sources */,
 				F52EBFBE20C5424900D49C88 /* Frameworks */,
 				F52EBFBF20C5424900D49C88 /* Resources */,
+				AD93CD3EE8998225E4C81501 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +181,7 @@
 		F52EBFB920C5424900D49C88 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JD;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "邓建东";
 				TargetAttributes = {
@@ -130,34 +215,75 @@
 			files = (
 				F52EBFD120C5424B00D49C88 /* LaunchScreen.storyboard in Resources */,
 				F52EBFCE20C5424B00D49C88 /* Assets.xcassets in Resources */,
-				F52EBFCC20C5424A00D49C88 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AD93CD3EE8998225E4C81501 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JDGomeMall/Pods-JDGomeMall-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JDGomeMall/Pods-JDGomeMall-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E93E9340FB6B50A2D2B30F01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JDGomeMall-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F52EBFBD20C5424900D49C88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F52EBFC920C5424A00D49C88 /* ViewController.m in Sources */,
+				F535AB2920CF6BC500AC9564 /* UIView+JDFrame.m in Sources */,
+				F52EC03820C6938E00D49C88 /* JDTabBarViewController.m in Sources */,
+				F52EC02F20C68F1E00D49C88 /* JDVersionTool.m in Sources */,
 				F52EBFD420C5424B00D49C88 /* main.m in Sources */,
+				F52EC06320CA340C00D49C88 /* JDNewFeatureCell.m in Sources */,
+				F52EC03B20C6940300D49C88 /* JDNewFeatureViewController.m in Sources */,
 				F52EBFC620C5424900D49C88 /* AppDelegate.m in Sources */,
+				F52EC03520C690C500D49C88 /* JDConst.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F52EBFCA20C5424A00D49C88 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F52EBFCB20C5424A00D49C88 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F52EBFCF20C5424B00D49C88 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -281,15 +407,15 @@
 		};
 		F52EBFD820C5424B00D49C88 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7EF1AB85FDC285B1D4A4793 /* Pods-JDGomeMall.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YSE2T8QG58;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JDGomeMall/JDGomeMall.pch";
 				INFOPLIST_FILE = JDGomeMall/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dong.JDGomeMall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,15 +424,15 @@
 		};
 		F52EBFD920C5424B00D49C88 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F398184460F1065605E42482 /* Pods-JDGomeMall.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YSE2T8QG58;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JDGomeMall/JDGomeMall.pch";
 				INFOPLIST_FILE = JDGomeMall/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dong.JDGomeMall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

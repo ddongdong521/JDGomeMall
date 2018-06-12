@@ -1,0 +1,15 @@
+//
+//  JDGomeMall.pch
+//  JDGomeMall
+//
+//  Created by 邓建东 on 2018/6/8.
+//  Copyright © 2018年 邓建东. All rights reserved.
+//
+
+#ifndef JDGomeMall_pch
+#define JDGomeMall_pch
+
+#import "Macros.h"
+#import "UIView+JDFrame.h"
+#import <SDWebImage/SDWebImageManager.h>
+#endif /* JDGomeMall_pch */
